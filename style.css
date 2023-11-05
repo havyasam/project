@@ -4,6 +4,9 @@
     padding: 0px;
    
 }
+h1{
+    color: rgb(236, 193, 114);
+}
 .canara{
     display: flex;
     justify-content: center;
@@ -133,7 +136,7 @@ nav .navbar-brand{
 
 /*** testimonial Start ***/
 .testimonial-item {
-    border: 1px solid var(--bs-primary);
+    border: 3px solid wheat;
     padding: 20px 20px;
 }
 
@@ -220,8 +223,9 @@ nav .navbar-brand{
     position: relative;
     font-size: 16px;
     border-radius: 0.5em;
-    background-color: #21242b;
-    border-bottom: 10px solid #1888f9;
+    background-color: white;
+    border:  2px solid wheat;
+    border-bottom: 10px solid wheat;
   }
   i {
     color: #18f98f;
@@ -229,17 +233,18 @@ nav .navbar-brand{
     text-align: center;
   }
   span.num {
-    color: #ffffff;
+    color:black;
     display: grid;
     place-items: center;
     font-weight: 600;
     font-size: 3em;
   }
   span.text {
-    color: #e0e0e0;
+    color: black;
     font-size: 1em;
     text-align: center;
     pad: 0.7em 0;
+
     font-weight: 400;
     line-height: 0;
   }

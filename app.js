@@ -110,7 +110,7 @@
 })(jQuery);
 
 let valueDisplays = document.querySelectorAll(".num");
-let interval = 4000;
+let interval = 8000;
 valueDisplays.forEach((valueDisplay) => {
   let startValue = 0;
   let endValue = parseInt(valueDisplay.getAttribute("data-val"));
@@ -123,3 +123,31 @@ valueDisplays.forEach((valueDisplay) => {
     }
   }, duration);
 });
+
+
+/****scroll reveal */
+ScrollReveal({ 
+    reset: true ,
+    distance:'180px',
+    duration:2000,
+    delay:50                 
+});
+ScrollReveal().reveal(' .bounceInUp .vision',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .bounceInUp .ourstat',{delay:600,origin:'bottom',interval:200});
+ScrollReveal().reveal(' .about .bounceInUp .mission',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .vasu',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .pad',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .kamath',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .padma',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .games',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .library',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .canteen',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .college',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .labs',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .ground',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .env',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .uni',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .skill',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .offer',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .our',{delay:600,origin:'right',interval:200});
+ScrollReveal().reveal(' .place',{delay:600,origin:'right',interval:200});
