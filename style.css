@@ -43,6 +43,8 @@ nav .navbar-brand{
     position: relative;
     height: 100%;
     border-radius: 8px;
+    border: solid;
+    border-color: rgba(212, 167, 98, 0.7);;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
@@ -54,8 +56,8 @@ nav .navbar-brand{
     top: 0;
     left: 0;
     bottom: auto;
-    background: var(--bs-primary);
-    border-radius: 8px;
+    background: rgba(212, 167, 98, 0.7);;
+   
     transition: 1s;
 }
 
@@ -86,6 +88,9 @@ nav .navbar-brand{
     background: var(--bs-white);
     color: var(--bs-dark);
 }
+.rounded-pill{
+    background: rgba(212, 167, 98, 0.7);;
+}
 
 .service-item .service-content-icon a.btn-primary {
     transition: 1s !important;
@@ -110,7 +115,9 @@ nav .navbar-brand{
     opacity: 0;
     z-index: 1;
 }
-
+.fa-solid{
+    size: 100px;
+}
 .event .event-img:hover .event-overlay {
     opacity: 1;
 }
@@ -177,3 +184,82 @@ nav .navbar-brand{
     color: var(--bs-white);
 }
 /*** Team End ***/
+
+/****stats start***/
+.wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+.stat{
+    text-align: center;
+}
+.container1 {
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #1888f9;
+  }
+  i {
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .wrapper {
+      width: 85vw;
+    }
+    .container1 {
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .container1 {
+      width: calc(50% - 40px);
+      height: 30vmin;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      gap: 15px;
+    }
+    .container1 {
+      width: 100%;
+      height: 25vmin;
+      font-size: 8px;
+    }
+  }
+  /****stats end****/
