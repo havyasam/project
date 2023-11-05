@@ -23,6 +23,13 @@ nav{
 
     
 }
+.txt{
+    color: wheat;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
 nav .navbar-brand{
     color:var(--bs-orange)!important;
 }
@@ -115,6 +122,7 @@ nav .navbar-brand{
     opacity: 0;
     z-index: 1;
 }
+
 .fa-solid{
     size: 100px;
 }
@@ -146,6 +154,11 @@ nav .navbar-brand{
     height: 100%;
     position: relative;
 }
+.brd{
+    border: solid 5px;
+    border-color: wheat;
+    
+}
 
 .team-item .team-icon {
     position: absolute;
@@ -167,7 +180,7 @@ nav .navbar-brand{
 }
 
 .team-item:hover .team-content {
-    background: var(--bs-primary) !important;
+    background: wheat !important;
     color: var(--bs-dark) !important;
 }
 
