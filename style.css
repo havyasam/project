@@ -6,6 +6,8 @@
 }
 .canara{
     display: flex;
+    justify-content: center;
+
     background-color:wheat;
 }
 h1{
