@@ -4,6 +4,9 @@
     padding: 0px;
    
 }
+.hel{
+  border: 5px solid wheat;
+}
 h1{
     color: rgb(236, 193, 114);
 }
@@ -43,9 +46,17 @@ nav .navbar-brand{
     outline: none!important;
     padding: none!important;
     border-color: black;
-    color: blue;
+    color: wheat;
 }
-
+.btnn{
+    background: white;
+    color: black;
+}
+.btnn:hover {
+    background: wheat;
+    color: black;
+  }
+  
 
 
 /*** service start ***/
@@ -199,6 +210,30 @@ nav .navbar-brand{
 .team-item:hover .team-content p {
     color: var(--bs-white);
 }
+#w:hover{
+    color: wheat;
+    
+}
+#h:hover{
+    color: wheat;
+    
+}
+#e:hover{
+    color: wheat;
+    
+}
+#u:hover{
+    color: wheat;
+    
+}
+#a:hover{
+    color: wheat;
+    
+}
+#t:hover{
+    color: wheat;
+    
+}
 /*** Team End ***/
 
 /****stats start***/
@@ -227,6 +262,16 @@ nav .navbar-brand{
     border:  2px solid wheat;
     border-bottom: 10px solid wheat;
   }
+  #opinion{
+      padding-top: 20px;
+  }
+  #stat1{
+      padding-top: 20px;
+  }
+  #desk{
+      padding-top: 20px;
+  }
+
   i {
     color: #18f98f;
     font-size: 2.5em;
