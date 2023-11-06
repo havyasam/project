@@ -4,6 +4,9 @@
     padding: 0px;
    
 }
+.main{
+    color: #1F1717;
+}
 .coursel{
     margin: auto;
     width: 105%;
@@ -20,22 +23,22 @@
     position: sticky;
 }
 .hel{
-  border: 5px solid wheat;
+  border: 5px solid rgb(0, 169, 255);
 }
 h1{
-    color: rgb(236, 193, 114);
+    color:rgb(104, 126, 255);
 }
 .canara{
     display: flex;
     justify-content: center;
 
-    background-color:wheat;
+    background-color:rgb(0, 169, 255);
 }
 #search{
-    border: solid wheat;
+    border: solid rgb(0, 169, 255);
 }
 #type{
-    border: solid wheat;
+    border: solid rgb(0, 169, 255);
 }
 h1{
     padding-top: 50px;
@@ -53,7 +56,7 @@ nav{
     
 }
 .txt{
-    color: wheat;
+    color: rgb(0, 169, 255);
 }
 /*bg color*/
 
@@ -78,14 +81,14 @@ nav .navbar-brand{
     outline: none!important;
     padding: none!important;
     border-color: black;
-    color: wheat;
+    color: rgb(0, 169, 255);
 }
 .btnn{
     background: white;
     color: black;
 }
 .btnn:hover {
-    background: wheat;
+    background: rgb(0, 169, 255);
     color: black;
   }
 
@@ -97,7 +100,7 @@ nav .navbar-brand{
     height: 100%;
     border-radius: 8px;
     border: solid;
-    border-color: rgba(212, 167, 98, 0.7);;
+    border-color: rgb(0, 169, 255);
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
@@ -109,7 +112,7 @@ nav .navbar-brand{
     top: 0;
     left: 0;
     bottom: auto;
-    background: rgba(212, 167, 98, 0.7);;
+    background: rgb(0, 169, 255);
    
     transition: 1s;
 }
@@ -142,7 +145,7 @@ nav .navbar-brand{
     color: var(--bs-dark);
 }
 .rounded-pill{
-    background: rgba(212, 167, 98, 0.7);;
+    background: rgb(0, 169, 255);
 }
 
 .service-item .service-content-icon a.btn-primary {
@@ -162,7 +165,7 @@ nav .navbar-brand{
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(212, 167, 98, 0.7);
+    background: rgb(0, 169, 255);
     border-radius: 8px;
     transition: 0.5s;
     opacity: 0;
@@ -179,7 +182,7 @@ nav .navbar-brand{
 
 /*** testimonial Start ***/
 .testimonial-item {
-    border: 3px solid wheat;
+    border: 3px solid rgb(0, 169, 255);
     padding: 20px 20px;
 }
 
@@ -205,7 +208,7 @@ nav .navbar-brand{
 }
 .brd{
     border: solid 5px;
-    border-color: wheat;
+    border-color: rgb(0, 169, 255);
     
 }
 
@@ -229,7 +232,7 @@ nav .navbar-brand{
 }
 
 .team-item:hover .team-content {
-    background: wheat !important;
+    background: rgb(0, 169, 255) !important;
     color: var(--bs-dark) !important;
 }
 
@@ -246,27 +249,27 @@ nav .navbar-brand{
     color: var(--bs-white);
 }
 #w:hover{
-    color: wheat;
+    color: rgb(0, 169, 255);
     
 }
 #h:hover{
-    color: wheat;
+    color: rgb(0, 169, 255);
     
 }
 #e:hover{
-    color: wheat;
+    color: rgb(0, 169, 255);
     
 }
 #u:hover{
-    color: wheat;
+    color: rgb(0, 169, 255);
     
 }
 #a:hover{
-    color: wheat;
+    color: rgb(0, 169, 255);
     
 }
 #t:hover{
-    color: wheat;
+    color: rgb(0, 169, 255);
     
 }
 /*** Team End ***/
@@ -294,8 +297,8 @@ nav .navbar-brand{
     font-size: 16px;
     border-radius: 0.5em;
     background-color: white;
-    border:  2px solid wheat;
-    border-bottom: 10px solid wheat;
+    border:  2px solid rgb(0, 169, 255);
+    border-bottom: 10px solid rgb(0, 169, 255);
   }
   #opinion{
       padding-top: 20px;
@@ -363,5 +366,5 @@ nav .navbar-brand{
   /****stats end****/
   .text-mut{
       padding-top: 20px;
-      background-color: wheat;
+      background-color: rgb(0, 169, 255);
   }
