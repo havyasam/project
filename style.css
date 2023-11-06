@@ -370,4 +370,8 @@ nav .navbar-brand{
   .text-mut{
       padding-top: 20px;
       background-color: rgb(0, 169, 255);
+      color: black;
+  }
+  footer{
+     
   }
