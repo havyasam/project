@@ -326,3 +326,7 @@ nav .navbar-brand{
     }
   }
   /****stats end****/
+  .text-mut{
+      padding-top: 20px;
+      background-color: wheat;
+  }
