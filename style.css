@@ -4,6 +4,21 @@
     padding: 0px;
    
 }
+.coursel{
+    margin: auto;
+    width: 105%;
+    
+    padding: 30px;
+}
+.card{
+    position: sticky;
+    top:0;
+    padding-top: 20px;
+    
+}
+.navbar{
+    position: sticky;
+}
 .hel{
   border: 5px solid wheat;
 }
@@ -32,15 +47,23 @@ p{
 nav{
     background-color:white;
     box-shadow: 1px 1px 2px #4444;
+    position: sticky;
+    top: 0;
 
     
 }
 .txt{
     color: wheat;
 }
-#abt{
-    padding-top: 20px;
-}
+/*bg color*/
+
+
+
+/*bg color*/
+
+
+
+
 .about{
     display: flex;
     justify-content: center;
@@ -65,7 +88,7 @@ nav .navbar-brand{
     background: wheat;
     color: black;
   }
-  
+
 
 
 /*** service start ***/
