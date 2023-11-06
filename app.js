@@ -128,7 +128,7 @@ valueDisplays.forEach((valueDisplay) => {
 /****scroll reveal */
 ScrollReveal({ 
     reset: true ,
-    distance:'180px',
+    distance:'200px',
     duration:2000,
     delay:50                 
 });
