@@ -16,6 +16,12 @@ h1{
 
     background-color:wheat;
 }
+#search{
+    border: solid wheat;
+}
+#type{
+    border: solid wheat;
+}
 h1{
     padding-top: 50px;
     padding-left: 30px;
@@ -31,6 +37,9 @@ nav{
 }
 .txt{
     color: wheat;
+}
+#abt{
+    padding-top: 20px;
 }
 .about{
     display: flex;
@@ -158,6 +167,9 @@ nav .navbar-brand{
 
 .testimonial-carousel.owl-rtl .testimonial-item {
     direction: ltr !important;
+}
+#facility{
+    padding-top: 20px;
 }
 /*** testimonial End ***/
 
