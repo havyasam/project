@@ -9,6 +9,7 @@
 }
 .main{
     color: #1F1717;
+    
 }
 .coursel{
     margin: auto;
@@ -32,7 +33,7 @@
 .canara{
     display: flex;
     justify-content: center;
-
+    gap: 40px;
     background:rgb(247, 239, 229);
 }
 #search{
@@ -42,12 +43,12 @@
     border: solid wheat;
 }
 h1{
-    padding-top: 50px;
-    padding-left: 30px;
+    padding-top: 30px;
+    
     color: #1F1717;
 }
 p{
-    padding-left: 30px;
+    margin-top: 20px;
 }
 nav{
     background-color:wheat;
