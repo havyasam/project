@@ -111,10 +111,34 @@
 
 let valueDisplays = document.querySelectorAll(".num");
 let interval = 8000;
+
+// Intersection Observer callback function
+function handleIntersection(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      // Element is in the viewport, play the animation
+      playAnimation(entry.target);
+    } else {
+      // Element is not in the viewport, pause the animation
+      pauseAnimation(entry.target);
+    }
+  });
+}
+
+// Create an Intersection Observer
+const observer = new IntersectionObserver(handleIntersection, {
+  threshold: 0.5, // Adjust this threshold as needed
+});
+
+// Observe each valueDisplay element
 valueDisplays.forEach((valueDisplay) => {
+  observer.observe(valueDisplay);
+});
+
+function playAnimation(valueDisplay) {
   let startValue = 0;
   let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-  let duration = Math.floor(interval / endValue);
+  let duration = Math.floor(interval / 600);
   let counter = setInterval(function () {
     startValue += 1;
     valueDisplay.textContent = startValue;
@@ -122,6 +146,19 @@ valueDisplays.forEach((valueDisplay) => {
       clearInterval(counter);
     }
   }, duration);
+}
+
+function pauseAnimation(valueDisplay) {
+  // Clear any existing animation interval
+  valueDisplay.textContent = valueDisplay.getAttribute("data-val");
+}
+
+// Initial check to see if any elements are already in the viewport
+valueDisplays.forEach((valueDisplay) => {
+  const entry = observer.takeRecords()[0];
+  if (entry && entry.isIntersecting) {
+    playAnimation(valueDisplay);
+  }
 });
 
 
@@ -132,7 +169,7 @@ ScrollReveal({
     duration:2000,
     delay:50                 
 });
-ScrollReveal().reveal(' .bounceInUp .vision',{delay:600,origin:'left',interval:200});
+/*ScrollReveal().reveal(' .bounceInUp .vision',{delay:600,origin:'left',interval:200});
 ScrollReveal().reveal(' .bounceInUp .ourstat',{delay:600,origin:'bottom',interval:200});
 ScrollReveal().reveal(' .about .bounceInUp .mission',{delay:600,origin:'right',interval:200});
 ScrollReveal().reveal(' .vasu',{delay:600,origin:'right',interval:200});
@@ -150,4 +187,4 @@ ScrollReveal().reveal(' .uni',{delay:600,origin:'left',interval:200});
 ScrollReveal().reveal(' .skill',{delay:600,origin:'right',interval:200});
 ScrollReveal().reveal(' .offer',{delay:600,origin:'left',interval:200});
 ScrollReveal().reveal(' .our',{delay:600,origin:'right',interval:200});
-ScrollReveal().reveal(' .place',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .place',{delay:600,origin:'left',interval:200});*/
