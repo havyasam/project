@@ -4,13 +4,21 @@
     padding: 0px;
    
 }
+.contact{
+    padding-top: 20px;
+}
 #home{
     background: white;
 }
 .main{
     color: #1F1717;
     
+    
 }
+b{
+    font-family: 'Merriweather', serif;
+}
+
 .coursel{
     margin: auto;
     width: 105%;
@@ -23,6 +31,7 @@
     padding-top: 20px;
     
 }
+
 .navbar{
     position: sticky;
 }
@@ -44,7 +53,7 @@
 }
 h1{
     padding-top: 30px;
-    
+   
     color: #1F1717;
 }
 p{
@@ -71,6 +80,7 @@ nav{
 
 
 .about{
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -288,6 +298,7 @@ nav .navbar-brand{
 }
 .stat{
     text-align: center;
+    padding-top: 50px;
 }
 .container1 {
     width: 28vmin;
@@ -372,6 +383,27 @@ nav .navbar-brand{
       background-color: wheat;
       color: black;
   }
-  footer{
-     
+  @media only screen and (max-width: 600px) {
+    .logo{
+        padding-top: 20px;
+        width: 110px;
+        height: 130px;
+      
+    }
   }
+  @media only screen and (max-width: 600px) {
+    .main {
+        font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .canara {
+        gap: 5px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    h6 {
+        font-size: 10px;
+    }
+  }
+
