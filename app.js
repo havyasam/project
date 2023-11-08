@@ -169,7 +169,7 @@ ScrollReveal({
     duration:2000,
     delay:50                 
 });
-/*ScrollReveal().reveal(' .bounceInUp .vision',{delay:600,origin:'left',interval:200});
+ScrollReveal().reveal(' .bounceInUp .vision',{delay:600,origin:'left',interval:200});
 ScrollReveal().reveal(' .bounceInUp .ourstat',{delay:600,origin:'bottom',interval:200});
 ScrollReveal().reveal(' .about .bounceInUp .mission',{delay:600,origin:'right',interval:200});
 ScrollReveal().reveal(' .vasu',{delay:600,origin:'right',interval:200});
@@ -187,4 +187,4 @@ ScrollReveal().reveal(' .uni',{delay:600,origin:'left',interval:200});
 ScrollReveal().reveal(' .skill',{delay:600,origin:'right',interval:200});
 ScrollReveal().reveal(' .offer',{delay:600,origin:'left',interval:200});
 ScrollReveal().reveal(' .our',{delay:600,origin:'right',interval:200});
-ScrollReveal().reveal(' .place',{delay:600,origin:'left',interval:200});*/
+ScrollReveal().reveal(' .place',{delay:600,origin:'left',interval:200});
